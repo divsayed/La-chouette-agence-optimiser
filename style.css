@@ -1,3 +1,4 @@
+/* les modification apportés au css sont commenter à partir de la ligne 679 */
 body {
 	margin: 0;
 	padding: 0;
@@ -648,7 +649,7 @@ h6,
 p,
 label,
 .btn,
-a {
+a { 
 	font-family: "helvetica";
 	font-weight: 400;
 	color: #575757!important;
@@ -675,9 +676,9 @@ a {
 	max-width: 520px;
 	margin: auto auto auto auto;
 }
-/* taille de texte mise à 14px à la place de 11px*/
+/* taille de texte mise à 18px à la place de 11px */
 p {
-	font-size: 14px;
+	font-size: 18px;
 }     
 
 .tight-width-whitespace {
@@ -736,7 +737,7 @@ h4 {
 }
 
 .white {
-	color: #FFFFFF!important;
+	color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -769,24 +770,24 @@ h4 {
 .bgc-dark-slate-blue {
 	background-color: #364577;
 }
-
+/* modifier le font pour que texte soit bien visible */
 .bgc-atomic-tangerine {
-	background-color: #F3976C
+	background-color: #f14d01f6;	
 }
-/*modifier la couleur de h1 page Accueil  (La chouette agence.)*/
+/*modifier la couleur de h1 page Accueil  (La chouette agence.) */
 .tc-white {
-	color: #f7f4f4!important;
+	color: #ffffff!important;
 }
-/* class tc-color ajouter à h1 ligne 53 et p ligne 56 pour remplacer la couleur illisible (page2)*/ 
+/* class tc-color ajouter à h1 ligne 53 et p ligne 56 pour remplacer la couleur illisible (page2) */ 
 .tc-color {
-	color: #FFFFFF!important;
+	color: #ffffff!important;
 }
 /* modifier le font des bouton pour que soit bien lisible*/
 .btn-atomic-tangerine {
 	background: #be3c00;
-	color: #FFFFFF!important;
+	color: #ffffff!important;
 }
-
+  
 .btn-atomic-tangerine:hover {
 	background: #c27956!important;
 	color: #FFFFFF!important;
@@ -824,7 +825,7 @@ h4 {
 .bg-banniere {
 	background-image: url(img/la-chouette-agence-banniere.jpg);
 }
-/* images d'origine bmp compresser et changer l'extension*/
+/* images d'origine bmp compresser et changer l'extension */
 .bg-presentation {
 	background-image: url(img/image-de-presentation.jpg);
 }
@@ -851,13 +852,13 @@ h4 {
 		max-width: 100%;
 	}
 }
-/* @media coriger en suprimant device (min-device-width)  */
+/* @media coriger en suprimant device (min-device-width) */
 @media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
 	.b-parallax {
 		background-attachment: scroll;
 	}
 }
-/* @media coriger en suprimant device (min-device-width)  */
+/* @media coriger en suprimant device (min-device-width) */
 @media only screen and (min-width:1024px) and (max-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
 	.b-parallax {
 		background-attachment: scroll;
